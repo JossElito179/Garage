@@ -1,8 +1,14 @@
 {
   "version": 2,
+<<<<<<< HEAD
   "dgSpecHash": "8Lu3ju6GUome/u1Iq6+6KjLAmHkcIju3ieqmzG61gkQ2Md5grFvMTonLlHtU+wStRveEkrtc+4zPMrUfgRL4Sg==",
   "success": true,
   "projectFilePath": "D:\\ITU\\Vacances\\Garage\\Garage.csproj",
+=======
+  "dgSpecHash": "f9BQB5jmiu5novu7KXvBs1Wne8OqNNVCZGsCUaAer/eEWyYW6F/kSLBYjtG8Emekt85+diF7LFMywmcyOHqE+g==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\NOMENA\\Documents\\GitHub\\Garage\\Garage.csproj",
+>>>>>>> 565673739ce5989eba9402939d003bcbc0a3d6d7
   "expectedPackageFiles": [],
   "logs": []
 }

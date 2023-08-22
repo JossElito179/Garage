@@ -1,6 +1,7 @@
 {
   "format": 1,
   "restore": {
+<<<<<<< HEAD
     "D:\\ITU\\Vacances\\Garage\\Garage.csproj": {}
   },
   "projects": {
@@ -12,9 +13,22 @@
         "projectPath": "D:\\ITU\\Vacances\\Garage\\Garage.csproj",
         "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
         "outputPath": "D:\\ITU\\Vacances\\Garage\\obj\\",
+=======
+    "C:\\Users\\NOMENA\\Documents\\GitHub\\Garage\\Garage.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\NOMENA\\Documents\\GitHub\\Garage\\Garage.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\NOMENA\\Documents\\GitHub\\Garage\\Garage.csproj",
+        "projectName": "Garage",
+        "projectPath": "C:\\Users\\NOMENA\\Documents\\GitHub\\Garage\\Garage.csproj",
+        "packagesPath": "C:\\Users\\NOMENA\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\NOMENA\\Documents\\GitHub\\Garage\\obj\\",
+>>>>>>> 565673739ce5989eba9402939d003bcbc0a3d6d7
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\user\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\NOMENA\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
