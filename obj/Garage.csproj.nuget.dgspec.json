@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "d:\\ITU\\Vacances\\Garage\\Garage.csproj": {}
+    "D:\\ITU\\Vacances\\Garage\\Garage.csproj": {}
   },
   "projects": {
-    "d:\\ITU\\Vacances\\Garage\\Garage.csproj": {
+    "D:\\ITU\\Vacances\\Garage\\Garage.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "d:\\ITU\\Vacances\\Garage\\Garage.csproj",
+        "projectUniqueName": "D:\\ITU\\Vacances\\Garage\\Garage.csproj",
         "projectName": "Garage",
-        "projectPath": "d:\\ITU\\Vacances\\Garage\\Garage.csproj",
+        "projectPath": "D:\\ITU\\Vacances\\Garage\\Garage.csproj",
         "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
-        "outputPath": "d:\\ITU\\Vacances\\Garage\\obj\\",
+        "outputPath": "D:\\ITU\\Vacances\\Garage\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\user\\AppData\\Roaming\\NuGet\\NuGet.Config"
