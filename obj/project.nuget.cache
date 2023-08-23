@@ -1,14 +1,12 @@
 {
   "version": 2,
-<<<<<<< HEAD
-  "dgSpecHash": "8Lu3ju6GUome/u1Iq6+6KjLAmHkcIju3ieqmzG61gkQ2Md5grFvMTonLlHtU+wStRveEkrtc+4zPMrUfgRL4Sg==",
+  "dgSpecHash": "VxYMvMZ0gloPbVtf3/DsLNe9G0hOGlxPDOcqcuL17Em9PDHKum84OdfIRNuW8QP+RCg0yKYKUJbHf7dCeG4FPg==",
   "success": true,
   "projectFilePath": "D:\\ITU\\Vacances\\Garage\\Garage.csproj",
-=======
-  "dgSpecHash": "f9BQB5jmiu5novu7KXvBs1Wne8OqNNVCZGsCUaAer/eEWyYW6F/kSLBYjtG8Emekt85+diF7LFMywmcyOHqE+g==",
-  "success": true,
-  "projectFilePath": "C:\\Users\\NOMENA\\Documents\\GitHub\\Garage\\Garage.csproj",
->>>>>>> 565673739ce5989eba9402939d003bcbc0a3d6d7
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\user\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\6.0.0\\microsoft.extensions.logging.abstractions.6.0.0.nupkg.sha512",
+    "C:\\Users\\user\\.nuget\\packages\\npgsql\\7.0.4\\npgsql.7.0.4.nupkg.sha512",
+    "C:\\Users\\user\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\6.0.0\\system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512"
+  ],
   "logs": []
 }

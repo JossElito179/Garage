@@ -10,29 +10,29 @@
  );
 
  CREATE TABLE employes (
-    idemployes SERIAL PRIMARY KEY,
+    idemploye SERIAL PRIMARY KEY,
     nom VARCHAR(35),
     adresse VARCHAR(35),
     numero VARCHAR(35),
     posteActuel VARCHAR(35),
-    salaireTJM REAL,
+    salaireTJM DECIMAL(10,2),
     CV VARCHAR(100)
  );
 
  CREATE TABLE experience (
     idexperience SERIAL PRIMARY KEY,
-    idemployes INT NOT NULL,
+    idemploye INT NOT NULL,
     postePrecedent VARCHAR(35),
     duree INTEGER NOT NULL,
     societe VARCHAR(50),
-    FOREIGN KEY (idemployes) REFERENCES employes(idemployes)
+    FOREIGN KEY (idemploye) REFERENCES employes(idemploye)
  );
 
 CREATE TABLE diplome (
     iddiplome SERIAL PRIMARY KEY,
-    idemployes INT NOT NULL,
+    idemploye INT NOT NULL,
     diplome VARCHAR(35),
-    FOREIGN KEY (idemployes) REFERENCES employes(idemployes)
+    FOREIGN KEY (idemploye) REFERENCES employes(idemploye)
  );
 
 CREATE TABLE voiture (
