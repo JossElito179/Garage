@@ -60,8 +60,26 @@ public class Employe
             con.Close();
     }
 
-    public void FullInsertEmploye(ConnectionBase connection){
-        
+    public int GetFinalId(ConnectionBase connection){
+        int rep=0;
+        string query = "SELECT MAX(idemploye) FROM employe";
+        using NpgsqlConnection con = connection.giveConnection();
+        NpgsqlCommand command = new(query, con);
+        NpgsqlDataReader reader = command.ExecuteReader();
+        if (reader.HasRows)
+        {
+            while (reader.Read())
+            {
+                rep = reader.GetInt32(0);
+            }
+        }
+        con.Close();
+        return rep;
+    }
+
+    //Inserting Full Employe identity exepted her experiences
+    public void FullEmployeDiplome(ConnectionBase connection){
+
     }
 
 }    
